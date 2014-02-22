@@ -1,0 +1,9 @@
+[Graceful Disasters.com](http://gracefuldisasters.com)
+==================
+The Graceful Disasters web site teaches webapp owners how to handle the inevitable downtime and problems. This repository contains the source documents for the site. 
+
+Pull requests, and suggestions for ways to improve this process are always welcome. You are encouraged to clone the repo and customize the documents to meet the needs of their company.  Let us know what works for you and what doesn't so we can improve the documentation for everyone.
+
+
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">Graceful Disasters</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://gracefuldisasters.com" property="cc:attributionName" rel="cc:attributionURL">masukomi.org</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/deed.en_US">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/masukomi/graceful_disasters" rel="dct:source">https://github.com/masukomi/graceful_disasters</a>.

@@ -1,0 +1,97 @@
+# Incident Management Process
+
+## Introduction
+Things break. Mistakes are made. Incidents happen. It's a simple fact. How we deal with them has an enormous impact on our customers and our reputation. What follows is a process for dealing with "major" incidents. 
+
+There are three key elements to it:
+1. Follow your process *exactly* every time. It is not enough to follow its essence. 
+2. At the end of each incident write up a [post-mortem](/post-mortem.html) that covers what went wrong, how it was handled, and how each of those could be improved. 
+3. If the [post-mortem](/post-mortem.html) includes refinements to the incident management process implement them immediately so that they'll be in place for the next incident.
+
+The first is the key to handling each incident smoothly. The second is the key to preventing it from happening again, and the third is the key to handling the next incident even better.
+
+## Sections
+
+* [Roles](#roles)
+	* [The Subject Matter Experts](#sme)
+	* [The Manager](#manager)
+	* [The Workers](#workers)
+	* [The Observers](#observers)
+* [Incident Severity Levels](#severity_levels)
+	* [Creating an Incident Severity Level Description](#severity_level_description)
+
+
+## <a name="roles"></a>Roles
+There are four primary roles in each incident. The workers, and the manager, the subject matter experts, and the observers. Some incidents may also require a public relations manager to actively communicate with the affected customer(s). These titles have no relation to corporate hierarchy. 
+
+* [The Subject Matter Experts](#sme)
+* [The Manager](#manager)
+* [The Workers](#workers)
+* [The Observers](#observers)
+
+
+### <a name="sme"></a>The Subject Matter Experts
+The Subject Matter Expert (SME) is the person who is notified first of an incident. They will immediately take on the "Manager" role for this incident, but will frequently hand the it off to someone else so that they might become a worker on the incident, or simply because they feel that someone else would be a more appropriate choice for managing this particular incident.
+
+**You must have a listing of Subject Matter Experts** that covers each aspect of your company. If, for example, the janitor accidentally knocks over your servers, he needs to know who to call. He would go to the listing of Subject Matter Experts and look up the appropriate person, and then contact them. 
+
+The subject matter expert may end up being the worker, or the manager, or they may simply pass it off to someone more appropriate. If the Subject Matter Expert is not directly involved in the fixing of the problem they will typically be available as resource to the people who are attempting to fix it during the course of the incident.
+
+### <a name="manager"></a>The Manager 
+One of the first steps in declaring an incident is nominating someone to manage the incident. You generally want to choose someone who is familiar with the problem domain but is not the best person to be actively attempting to fix the problem. This is because the person managing the incident is specifically *not* allowed to work on the problem. 
+
+The manager is responsible for:
+
+* Staying Calm
+* Reporting the incident to management / pr / the customer. Which people get notified depends on the incident level. 
+* Getting a updated status from the workers every hour. 
+* Keeping the workers on track, and focusing their efforts.   
+  If there are multiple potential avenues for addressing the problem, the manager will make the call as to which one(s) to pursue. 
+* Calling in outside resources. If the manager decides more workers are needed he calls them in. If the workers need help from other departments or teams, he calls them in. If the workers need coffee. He makes it appear. 
+* Replacing workers. Workers will fade after working on a problem for long enough. When their efficacy fades, or they're simply too tired to continue. It's the manager's job to help them hand off the task. 
+* After getting the hourly status update and taking any actions deemed necessary as a result of it, he will then update the observers.
+* Making sure there is a test plan to verify the incident has been resolved without creating any new problems. 
+
+**A manager is not allowed to manage an incident for more than eight hours.** When the seventh hour comes the manager must begin the process of handing over the reigns to someone else. This is to guarantee the person in charge is fresh and doesn't start making bad decisions based on fatigue or frustration. 
+
+This should go without saying but... in order to do their job effectively the manager needs totally honest updates from the workers. In exchange for this honesty the manager *must not get upset with workers for reporting bad news.* Sometimes things are simply hard to fix. You don't want people trying to hide problems from you in order to avoid your wrath.
+
+### <a name="workers"></a>The Workers
+These are the people actually attempting to fix the problem. The more severe the problem, the more important it is to have your best person working on it. Keep in mind that if, for example, your best developer just pulled an all-nighter to get some critical feature done, they're probably not mentally fresh enough to be making the best decisions about a severe problem. 
+
+In addition to attempting to solve the problem the worker must make an effort to report their status to the manager with complete candor and honesty. In many cases one of the workers will be the person who caused the incident, and their natural tendency will be to downplay the problem, or attempt to make it look like they've got the solution more under control than they really do. It's human nature. We fell bad about screwing up and don't want others to worry, or think we're incompetent. We must resist these tendencies. 
+
+When the manager calls for a status update the worker must provide complete details about everything they've learned since the last update, what they've tried, what success they have or haven't had, what they're working on now, and what they think is left to be done.  
+
+### <a name="observers"></a>The Observers
+The observers are people who will have no direct involvement in fixing a problem but must be aware of the problem in case customers start calling. Some examples might be: the client manager(s), the Vice President, the CEO. 
+
+### The Public Relations Manager
+The public relations manager is frequently an observer, in more severe incidents, they also become an active participant in the process. In these situations it is their responsibility to keep clients and end users informed about the status of the incident and communicate discoveries, successes, or setbacks, that show you are actively working to address the situation. This person does not directly manage or influence the handling of the incident in any way. They manage the expectations and questions of the people affected by the incident. They may, at the Incident Manager's request, also gather information from affected users that could help in understanding or gauging the problem. 
+
+## <a name="severity_levels"></a>Incident Severity Levels
+The first step in deciding how to handle an incident is determining its severity level. Each severity level will be handled differently: different people will be contacted, fixing the problem might involve calling people at 4:00 AM, or waiting until the next morning. 
+
+Each organization must determine their own severity levels. It is critical that each severity level is accompanied by a simple, and short description that makes it easy for the person reporting the incident to decide which severity level is appropriate.
+
+Each severity level has an associated process that details exactly who needs to be contacted and what needs to happen, and when while the incident is in effect.
+
+Severity levels can change during the course an incident. For example: a client's web site is down and they're loosing thousands of dollars every minute. Level 1, wake whoever it takes regardless of the time. Two hours later you've got the site back up, but for a couple pages that aren't mission-critical aren't loading. The severity drops significantly, people can probably go back to sleep and deal with the remainder when they wake up.
+
+While there is no limit to the number of severity levels it's unlikely you'll need more than five. Additionally, some problems are simply too small to warrant being addressed by this process. Issues that don't need to be addressed right away, generally don't need to be addressed by this process. File an issue in your issue tracker, and continue on with your work. 
+
+## <a name="severity_level_description"></a>Creating an Incident Severity Level Description
+Each Incident Severity Level must have an associated document that covers the following items in detail.
+
+* Description
+	* Provides readers with the information needed to decide if this is the appropriate severity level.
+* Immediacy
+	* Lets readers know how quickly the incident must be addressed
+* Communications
+	* Lets participants know what mechanisms workers and managers will utilize to communicate during the course of the incident (chat room, conference call, etc.).
+* Observers
+	* Indicates what observers will be notified and when they should be notified. 
+* Process
+	* A step-by-step listing of actions the manager should take during this process. This must leave nothing out. The goal is to provide a structured checklist that can be used during a stressful situation. This helps to calm, and guarantee that nothing important gets missed in the rush to fix things.
+
+Please see the [Severity Level One Incidents Document](severity_level_one_incidents.html) for an example template for handling a worst case scenario.

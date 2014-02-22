@@ -1,0 +1,29 @@
+# Incident Management Process Post-Mortem
+
+Once an incident has concluded the manager(s) must put together a post-mortem of the incident. This document should be emailed to all of the participants and observers. A meeting should be called to discuss the post-mortem with the necessary parties once everyone has had a chance to catch their breath. 
+
+The discussion of the post-mortem should (in most cases) result in changes to existing processes so as to prevent future occurrences of this type of incident and / or improve the handling of future incidents. This means, that whenever possible the Post-Mortem should result in changes to the Incident Management Process and / or the Incident Prevention Processes. 
+
+The post-mortem must include the following sections:
+
+* Problem
+	* A description of what the problem was, and when the incident began and ended.
+* Participants
+	* Who actively participated in addressing this issue.
+	* Specifically call out who the Manager was and who was acting as a SME. 
+* Cause
+	* What actions, or failures resulted in this incident coming to pass?
+* Handling
+	* What steps were taking during the handling of this incident?
+		* What did each of the participants do?
+			* Call out anything notable that an individual did / discovered (positive or negative).
+	* Note how the source of the problem was ultimately discovered.
+* Solution
+	* How was the problem ultimately resolved?
+* Prevention
+	* What can we do to prevent this incident from happening again, or to minimize the possibility of its reoccurrence?
+* Handling Lessons
+	* What could we have done better in the handling of this incident?
+	* What mistakes were made in the management  of this incident? 
+	* What steps can be taken to address the shortcomings of the handling of this incident?
+	* What steps can be taken to prevent the mistakes that were made, or minimize the possibility of their reoccurrence?
