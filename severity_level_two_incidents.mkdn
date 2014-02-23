@@ -1,0 +1,116 @@
+# Severity Level 2 Incidents
+
+## Description:
+A severity Level 2 incident is a serious situation, but one that doesn't require waking people in the middle of the night. There's a significant problem with a customer site that is preventing them from using important parts of the system, the problem is not actively harming them, but will if not addressed quickly. Or, it is a problem that will loose us customers or money if not addressed quickly.
+
+## Immediacy
+Sev. 2 incidents still have a significant cost or downside if they're not addressed. Workers are expected to work after hours to address it but not 24/7 until it's fixed. Calling someone before they get in to work is acceptable, but don't wake them them in the middle of the night. If the issue is raised at the end of the work day, someone still needs to begin looking in to it rather than just waiting for the next day. 
+
+If the problem is not solved quickly enough it will likely need to be elevated to Level 1, and nobody wants that.
+
+## Communications
+* Everyone involved in the problem should join the "Incident Management" chat room  [CHAT ROOM NAME HERE]
+* the IM and workers should make themselves available via the Instant Messaging System.
+* the IM should provide their direct phone number in the chat  room in case anyone needs to contact them outside of the conference call.
+
+
+## Observers:
+* C-Levels
+* Subject Matter Experts
+* Public Relations Manager (they also have a role to play at this level)
+
+## Process
+Everyone is expected to help when called upon, and multiple developers should be brought on board. Presumably a SME is already involved in the incident. If for some reason one is not, get ahold of them before proceeding.  If no SME can be reached, then continue on with your best available resource, and continue with your attempts to reach a SME.
+
+### Choosing An Incident Manager
+The Incident Manager (IM) needs to be someone who can make intelligent decisions based on the information the workers provide them. They should be someone who can understand the problem, even if they're not qualified to work on it. During a Severity Level 2 incident it is likely there will be business level decisions that have to be made, as such it's generally better to go up the corporate hierarchy than down when choosing a manager. 
+
+### Incident Manager's Responsibilities
+#### Beginning the Incident Management
+The Incident Manager *is not allowed to be a worker in this situation*. 
+
+1. With the help of the SME (if that's not you) determine who should be working on this problem and contact that person quickly. If they are unreachable choose someone else and repeat until you have someone actively working on the task. The SME may be the most appropriate person to work on the task. 
+2. Join the Incident Management room in the chat room and note that a Level 1 Incident has begun along with a link to this document.
+3. Contact the observers. Make all possible efforts to contact them immediately within normal waking hours. 
+4. Contact the Public Relations person or delegate someone to fill that role. 
+5. File a ticket. 
+6. Place a link to the ticket in the chat room. 
+7. By this point the worker has probably had a chance to look at the issue. Ask them if they believe they will need help. Arrange for it if they do. 
+8. Be available to the worker(s). 
+9. Begin working on a test plan. 
+
+At this point in the process the IM's job is to manage communications, direct work (if needed), help with decisions, and contact anyone the worker(s) may need to help address the problem. 
+
+#### Bi-Hourly Updates
+Every two hours the Incident Manager should request a detailed update from each worker. These should be summarized and passed off to the Observers. This can happen verbally, or by email. Whichever feels most appropriate given the situation, and observers. Based on the updates the Incident Manager should make a call about how to proceed. Typically this will be no change, but they may need to call in additional resources, swap out tired workers, or instruct workers to change direction, or focus on different parts of the problem.  
+
+#### Keeping Workers Fresh and Focused
+Workers will fade after working on a problem for long enough. When their efficacy fades, or they're simply too tired to continue. It's the manager's job to help them hand off the task. During a Level 2 incident, it is acceptable to send everyone home to get some sleep before regrouping in the morning. 
+ 
+If there are multiple potential avenues for addressing the problem, the manager will make the call as to which one(s) to pursue.
+
+Because Level 2 incidents can involve working late (or early), managers should make an effort to release human resources as soon as they are deemed no longer necessary. Let people get back to sleep. Similarly, let people sleep in the next day if they stayed up half the night fixing things, and are no longer needed in this incident.
+
+Workers should not attend any meetings during a Level 2 incident. The manager should handle letting the other parties know.
+
+## Removing Distractions
+The manager should do their best to keep the workers from being interrupted while they address the problem. In many cases the best way to do this is to take over a meeting room.
+
+The IM should actively police the Incident Management Chat Room. Observers are free to lurk but should be discouraged from posting lest it distract the workers. The Incident Manager also wants to keep on eye on the chat room so that they can be aware of, and quickly address, any problems that may arise.  Any questions an Observer has should be directed to the IM directly. 
+
+## Public Relations Manager's Responsibilities 
+Level 2 incidents are likely to be noticed by our customers. In these situations pro-active communications are imperative to maintaining a good working relationship with them. At this severity level the Public Relations tasks must be delegated to an individual who is *not* the Incident Manager or one of the workers. Obviously a Public Relations or Client Manager is best, but anyone who can communicate statuses, and answer questions in a clear, confident, and calming manner can fill the role if necessary.
+
+### PRM's tasks
+
+1. Ask the Incident Manager if there are is any information that should be gathered from affected users. If so, put together a list of questions to ask when communicating with users.
+2. Phone the customers
+	*  When you do this is dependent on the problem.
+	* If it is during office hours, or they may be affected during off hours then call immediately, but endeavor to not wake them in the middle of the night.
+	* If customers are unaware of the problem make them aware. If the customer was aware of the problem already, let them know that you are actively working on it.
+	* Give them a number to call you at and encourage them to call you if they have any questions.
+	* Let them know that you will be e-mailing them with bi-hourly updates during business hours. Confirm that they have email access, and offer to call them with updates if they would prefer. 
+	* Go over the list of questions provided by the Incident Manager (if any).
+3. If you were unable to reach any customer by phone, contact them via e-mail. 
+4. Take the Incident Manager's bi-hourly updates, summarize and rewrite any part of it that can be presented to the customer to show that the problem is being actively addressed. These updates should include notable discoveries, and setbacks. If there is nothing notable to communicate to the customer(s) then simply let them know that the situation remains unchanged and we are continuing to work on it. 
+5. Be a resource for Incident Manager to communicate with the customer. They may need you to ask the customer questions for them. They may need you to track down an specific individual so that they, or a worker, can ask them detailed questions, or perform some action. 
+
+[NOTE:] [Graceful Disasters](http://gracefuldisasters.com) recommends full transparency with customers. We advocate for maintaining a public log of all incidents, including notes on what happened and how it was handled. This should be updated as soon as the incident is declared.
+
+## Test Plan
+Before an incident can be declared over the test plan must be executed and signed off by: the IM, one or more of the workers, and anyone else the IM feel could add value to the testing. It should guarantee that the incident has been fixed, that no related functionality has broken. 
+
+The IM is responsible for making sure a test plan has been put together and that it covers all necessary areas. In many cases the IM will have to consult with a SME to devise the test plan. 
+
+The test plan must be executed in the staging and production environments. Note that some tests may have to be skipped in production as many involve the creation, or modification of customer data which should never happen in production. 
+
+### Automated Tests 
+If there are automated tests they must be run and passed before the incident can be declared over.  In the case of a Level 2 incident it is NOT acceptable to fix a problem and either not write an automated test for it or to delay the testing until later. The issue is too severe to cross our fingers and hope we haven't broken anything.  
+
+It is understood that there are cases where it is simply not possible to write an automated test for the afflicted system(s) OR that the changes were so sweeping that writing comprehensive tests would delay releasing the fix. In the latter case the fix should be released, and assuming all other tests pass, the severity should be dropped, to Level 3. The incident will remain open until the tests have been written and the new changes have passed.
+
+## Ending an Incident 
+
+1. Execute the test plan (see above) in a staging environment.
+2. Deploy the changes to the production environment.
+3. Execute the test plan again in production, skipping any tests that might harm customer data.
+4. Update the Observers. 
+5. Confirm that the Observers are satisfied and that the workers can be released.
+6. Thank everyone and officially declare the incident over in the chat room 
+7. Release the workers and anyone else.
+8. Begin writing up the Post-Mortem OR if you need a break, write up some notes about the key points that must not be forgotten when you come back to work and start writing it up. 
+9. Celebrate. You deserve it. 
+
+## Post-Mortem
+Once the incident has been addressed it is the manager's top priority to provide a post-mortem. If the incident concludes after-hours this can wait until the next day. Schedule a meeting with the observers and PR Manager as soon as possible once the post-mortem is ready. People who actively participated in the incident may be invited to go over the post-mortem but their presence is not required. 
+
+### Post-Post-Mortem 
+In addition to the standard tasks covered in our Post-Mortem documentation the PR Manager has two remaining tasks: 
+1. summarize what happened, how it was addressed, and what steps are being taken to prevent it from happening again.
+2. communicate this information to all customers (not just the ones directly affected by the incident).
+
+## Notes
+The manager is typically familiar with the problem domain and will want to contribute and see what they can figure out about the problem. That's fine, but doing so must be secondary to the management of the incident, and they must not attempt to fix the problem themselves. 
+
+Stay out of the way of the workers. If you do find some valuable clue, pass it on and let them deal with it. Don't let yourself get caught up in attempting to fix the problem. 
+

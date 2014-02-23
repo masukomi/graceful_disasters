@@ -14,7 +14,7 @@ Level 1 incidents must be handled with all possible speed. Call in *any* necessa
 * The manager should provide their direct phone number in the chat  room in case anyone needs to contact them outside of the conference call.
 
 ## Observers:
-* The CEO
+* The CEO, C-Levels
 * Subject Matter Experts (as needed)
 * Public Relations Manager (they also have a role to play at this level)
 
@@ -24,9 +24,10 @@ At this level of severity the hour of the day or night is irrelevant. Everyone i
 ### Choosing An Incident Manager
 Obviously, you want your most experienced person working on solving the problem. The Incident Manager needs to be someone who can make intelligent decisions based on the information the workers provide them. They should be someone who can understand the problem, even if they're not qualified to work on it. During a severity level 1 incident it is likely there will be business level decisions that have to be made, as such it's generally better to go up the corporate hierarchy than down when choosing a manager. 
 
-### Beginning the Incident Management
+### Incident Manager's Responsibilities
+#### Beginning the Incident Management
 
-Remember, the Incident Manager *is not allowed to be a worker in this situation*. 
+The Incident Manager *is not allowed to be a worker in this situation*. 
 
 1. With the help of the SME (if that's not you) determine who should be working on this problem and contact that person immediately. If they are unreachable choose someone else and repeat until you have someone actively working on the task. The SME may be the most appropriate person to work on the task. 
 2. Join the Incident Management room in the chat room and note that a Level 1 Incident has begun along with a link to this document.
@@ -42,9 +43,22 @@ Remember, the Incident Manager *is not allowed to be a worker in this situation*
 
 At this point in the process the manager's job is to manage communications, direct work (if needed), help with decisions, and contact anyone the worker(s) may need to help address the problem. 
 
-The manager should actively police the Incident Management Room. Observers are free to lurk but should be discouraged from posting lest it distract the workers. Similarly Observers should be discouraged from speaking in the conference call. Any questions an Observer has should be directed to the Manager directly. 
+#### Hourly Updates
+Every hour the Incident Manager should request a detailed update from each worker. These should be summarized and passed off to the Observers, and Public Relations Manager. This can happen verbally, or by email. Whichever feels most appropriate given the situation, and observers. Based on the updates the Incident Manager should make a call about how to proceed. Typically this will be no change, but they may need to call in additional resources, swap out tired workers, or instruct workers to change direction, or focus on different parts of the problem.  
+
+#### Keep Workers Fresh and Focused
+ Workers will fade after working on a problem for long enough. When their efficacy fades, or they're simply too tired to continue. It's the manager's job to help them hand off the task. 
+ 
+If there are multiple potential avenues for addressing the problem, the manager will make the call as to which one(s) to pursue.
 
 Because Level 1 incidents can happen in the wee hours of the morning, managers should make an effort to release human resources as soon as they are deemed no longer necessary. Let people get back to sleep. Similarly, let people sleep in the next day if they stayed up half the night fixing things.
+
+Workers are not allowed to attend any meeting during a Level 1 incident. The manager should handle letting the other parties know.
+
+#### Removing Distractions
+The manager should do their best to keep the workers from being interrupted while they address the problem. In many cases the best way to do this is to take over a meeting room. A Severity Level 1 incident trumps essentially any other meeting that could be happening. If there are no available meeting rooms, do not hesitate to ask people to leave, but make sure they understand why it is important that they do.
+
+The manager should actively police the Incident Management Chat Room. Observers are free to lurk but should be discouraged from posting lest it distract the workers. Similarly Observers should be discouraged from speaking in the conference call.  Any questions an Observer has should be directed to the Manager directly. 
 
 
 ## Public Relations Manager's Responsibilities 
@@ -71,7 +85,7 @@ Before an incident can be declared over the test plan must be executed and signe
 
 The Manager is responsible for making sure a test plan has been put together and that it covers all necessary areas. In many cases the Manager will have to consult with a SME to devise the test plan. 
 
-The test plan must be executed in the staging and production environments. Note that some tests may have to be skipped in production as many invole the creation, or modification of customer data which should never happen in production. 
+The test plan must be executed in the staging and production environments. Note that some tests may have to be skipped in production as many involve the creation, or modification of customer data which should never happen in production. 
 
 ### Automated Tests 
 If there are automated tests they must be run and passed before the incident can be declared over.  In the case of a Level 1 incident it is NOT acceptable to fix a problem and either not write an automated test for it or to delay the testing until later. The issue is too severe to cross our fingers and hope we haven't broken anything.  
@@ -85,11 +99,11 @@ It is understood that there are cases where it is simply not possible to write a
 3. Execute the test plan again in production, skipping any tests that might harm customer data.
 4. Update the Observers. 
 5. Confirm that the Observers are satisfied and that the workers can be released.
-6. Officially declare the incident over in Campfire 
+6. Thank everyone and officially declare the incident over in the chat room 
 7. Officially declare the incident over in the Conference call. 
-7. Release the workers and anyone else.
-8. Begin writing up the Post-Mortem OR if you need a break, write up some notes about the key points that must not be forgotten, like who when you come back to work and start writing up the Post-Mortem. 
-9. Celebrate. You deserve it. 
+8. Release the workers and anyone else.
+9. Begin writing up the Post-Mortem OR if you need a break, write up some notes about the key points that must not be forgotten when you come back to work and start writing it up.
+10. Celebrate. You deserve it. 
 
 
 ## Post-Mortem

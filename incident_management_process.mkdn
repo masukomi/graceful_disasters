@@ -19,6 +19,7 @@ The first is the key to handling each incident smoothly. The second is the key t
 	* [The Observers](#observers)
 * [Incident Severity Levels](#severity_levels)
 	* [Creating an Incident Severity Level Description](#severity_level_description)
+	* [Changing Severity Levels](#changing_severity_levels)
 
 
 ## <a name="roles"></a>Roles
@@ -38,21 +39,18 @@ The Subject Matter Expert (SME) is the person who is notified first of an incide
 The subject matter expert may end up being the worker, or the manager, or they may simply pass it off to someone more appropriate. If the Subject Matter Expert is not directly involved in the fixing of the problem they will typically be available as resource to the people who are attempting to fix it during the course of the incident.
 
 ### <a name="manager"></a>The Manager 
-One of the first steps in declaring an incident is nominating someone to manage the incident. You generally want to choose someone who is familiar with the problem domain but is not the best person to be actively attempting to fix the problem. This is because the person managing the incident is specifically *not* allowed to work on the problem. 
+One of the first steps in declaring an incident is nominating someone to manage the incident. You generally want to choose someone who is familiar with the problem domain but is not the best person to be actively attempting to fix the problem. **This is because the person managing the incident is specifically *not* allowed to work on the problem. **
 
 The manager is responsible for:
 
 * Staying Calm
 * Reporting the incident to management / pr / the customer. Which people get notified depends on the incident level. 
-* Getting a updated status from the workers every hour. 
-* Keeping the workers on track, and focusing their efforts.   
-  If there are multiple potential avenues for addressing the problem, the manager will make the call as to which one(s) to pursue. 
+* Getting a regularly updated status from the workers, and taking any actions deemed necessary as a result of it.
+* Keeping the workers fresh, on track, and focused.    
 * Calling in outside resources. If the manager decides more workers are needed he calls them in. If the workers need help from other departments or teams, he calls them in. If the workers need coffee. He makes it appear. 
-* Replacing workers. Workers will fade after working on a problem for long enough. When their efficacy fades, or they're simply too tired to continue. It's the manager's job to help them hand off the task. 
-* After getting the hourly status update and taking any actions deemed necessary as a result of it, he will then update the observers.
 * Making sure there is a test plan to verify the incident has been resolved without creating any new problems. 
 
-**A manager is not allowed to manage an incident for more than eight hours.** When the seventh hour comes the manager must begin the process of handing over the reigns to someone else. This is to guarantee the person in charge is fresh and doesn't start making bad decisions based on fatigue or frustration. 
+**A manager is not allowed to manage an incident for more than eight hours without break.** When the seventh hour comes the manager must begin the process of handing over the reigns to someone else. This is to guarantee the person in charge is fresh and doesn't start making bad decisions based on fatigue or frustration. 
 
 This should go without saying but... in order to do their job effectively the manager needs totally honest updates from the workers. In exchange for this honesty the manager *must not get upset with workers for reporting bad news.* Sometimes things are simply hard to fix. You don't want people trying to hide problems from you in order to avoid your wrath.
 
@@ -94,4 +92,12 @@ Each Incident Severity Level must have an associated document that covers the fo
 * Process
 	* A step-by-step listing of actions the manager should take during this process. This must leave nothing out. The goal is to provide a structured checklist that can be used during a stressful situation. This helps to calm, and guarantee that nothing important gets missed in the rush to fix things.
 
-Please see the [Severity Level One Incidents Document](severity_level_one_incidents.html) for an example template for handling a worst case scenario.
+Please see the following documents for examples:
+
+* [Severity Level One Incidents Document](severity_level_one_incidents.html)
+* [Severity Level Two Incidents Document](severity_level_two_incidents.html)
+* [Severity Level Three Incidents Document](severity_level_three_incidents.html)
+
+
+## <a name="changing_severity_levels"></a>Changing Severity Levels
+Once an incident has been declared, the current severity level can be changed at any time. This is because how you handle things should be tied to the *current* severity level.  If you deploy a partial fix, or come up with a workaround which alleviates a significant part of the problem, then it's reasonable to downgrade the severity level of the incident. Similarly if an incident goes on too long, or the process of addressing it reveals even bigger problems, then you may want to upgrade the severity level. The decision to change the severity level is one made by the Manager with input from the Observers.
